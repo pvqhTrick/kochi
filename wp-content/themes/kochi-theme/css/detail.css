@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+@import url("base.css");
+
+/***************************************************************************
+ *
+ * COMMON STYLE
+ *
+ ***************************************************************************/
+
+body {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style: none;
+}
+#banner{
+    background: url(../img/detail/banner.png)no-repeat center;
+}
+#content{
+	padding-top: 100px;
+}
+.title-top{
+    font-size: 27px;
+    color: #573c12;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    background: url(../img/detail/boder-repeat.png) 0px 46px;
+    background-repeat: repeat-x;
+}
+#content .wraper{
+	width: 837px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.area1 .cat-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0 0;
+}
+.area1 .cat-list .cat-item {
+    margin: 5px 5px 0 0;
+}
+.area1 .cat-list .cat-item a {
+    display: block;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #FFF;
+    border: 1px solid #ded5b2;
+}
+.area1 .cat-list .cat-item a:hover {
+    opacity: 0.85;
+}
+.area1 .text{
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 17px;
+    text-align: justify;
+    padding-top: 40px;
+    letter-spacing: 0.2px;
+    line-height: 2;
+    border-bottom: 1px solid #ded5b2;
+    padding-bottom: 36px;
+}
+.area1 table{
+	width: 100%;
+	border:1px solid #ded5b2;
+	margin-top: 49px;
+}
+.area1 table tr td{
+	border:1px solid #ded5b2;
+	font-size: 18px;
+}
+.area1 table tr td:first-child{
+	width: 190px;
+	text-align: center;
+	background: #ece6d0;
+	color: #573c12;
+	font-weight: normal;
+}
+.area1 table tr td:last-child{
+    padding-left: 32px;
+    letter-spacing: 0.2px;
+    line-height: 1.75;
+    background: #fff;
+}
+.area1 table tr:last-child td:last-child{
+	padding-bottom: 24px;
+}
+.area1 table tr:last-child td:first-child{
+	vertical-align: top;
+}
+.area1 table tr td{
+	padding: 34px 0px 30px;
+}
+.area1 .map{
+	margin-top: 47px;
+}
+.area1 .slider-page{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 104px;
+}
+.area1 .slider-page p{
+	float: left;
+}
+.area1 .slider-page .next{
+	float: right;
+}
+.area1 .slider-page a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    width: 126px;
+}
+.area1 .slider-page .prev a{
+    background: url(../img/detail/prev.png)no-repeat left center;
+    padding: 15px 0px 15px 32px;
+}
+.area1 .slider-page .next a{
+    background: url(../img/detail/next.png)no-repeat left center;
+    padding: 15px 24px 15px 0px;
+}
+.wraper .img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensures any overflowing content is hidden */
+}
+
+.wraper .img img {
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover; /* Ensures the image covers the container without losing aspect ratio */
+    display: block;
+}

@@ -1,0 +1,569 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* index.css
+*
+***************************************************************************/
+
+#topSlider {
+    padding-top: 160px;
+    background: url(../img/index/slide_bg.png) no-repeat top center;
+}
+
+#topSlider .slide_top {
+    list-style: none;
+}
+#topSlider .slide_top li a{
+    display: block;
+}
+
+#topSlider .bx-wrapper .bx-viewport {
+    border: 10px solid #fff;
+}
+
+#topSlider .bx-wrapper .bx-pager,
+#topSlider .bx-wrapper .bx-controls-auto {
+    top: -50px;
+    bottom: auto;
+}
+
+#topSlider .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #fff;
+}
+
+#topSlider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#topSlider .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #573c12;
+}
+
+
+.toparea {  
+    width: 100%;
+    margin-bottom: 47px;
+}
+
+.toparea .areaTitle {
+    text-align: center;
+    font-size: 32px;
+    color: #573c12;
+    padding-bottom: 6px;
+    background: url(../img/index/toparea_border.png) repeat-x bottom;
+    display: block;
+    margin-bottom: 45px;
+    padding-top: 21px;
+}
+
+.toparea .areaTitle .txt {
+    display: inline-block;
+    padding-right: 65px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 10px 0 0;
+}
+
+.toparea .areaTitle .txt span {
+    color: #79a91d;
+}
+
+
+.toparea1 {
+    padding-bottom: 29px;
+}
+
+.toparea1 .areaTitle .txt {
+    background-image: url(../img/index/toparea1_title_icon.png);
+    padding-right: 47px;
+}
+
+.toparea1 .areaTitle .txt span {
+    font-size: 36px;
+}
+
+.toparea1 .map {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.toparea1 .btn_access {
+    position: relative;
+    float: right;
+    margin-top: -100px;
+    margin-right: 45px;
+    z-index: 10;
+}
+
+.toparea1 .btn_access a {
+    display: block;
+}
+
+
+.toparea2 {
+    background: #fff;
+    padding-top: 51px;
+    padding-bottom: 85px;
+}
+.toparea2 .areaTitle {
+	padding-bottom: 2px;
+    margin-bottom: 56px;
+}
+.toparea2 .areaTitle .txt {
+    background-image: url(../img/index/toparea2_title_icon.png);
+    padding-right: 70px;
+    padding-top: 13px;
+}
+
+.toparea2 ul {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.toparea2 ul li {
+    position: relative;
+    width: 342px;
+    float: left;
+    margin-right: 37px;
+}
+
+.toparea2 ul li:last-child {
+    margin-right: 0;
+}
+
+.toparea2 ul li .movie {
+    text-align: center;
+}
+
+.toparea2 .title_movie {
+    font-size: 16px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.44);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    padding: 13px 20px;
+}
+
+.toparea3 {
+    overflow: hidden;
+}
+.toparea3 .areaTitle {
+    padding-bottom: 1px;
+    padding-top: 78px;
+    margin-bottom: 48px;
+}
+
+.toparea3 .areaTitle .txt {
+    background-image: url(../img/index/toparea3_title_icon.png);
+    padding: 23px 73px 8px 0;
+}
+
+.toparea3 .wraper_slide {
+    width: 1550px;
+    margin-left: -225px;
+}
+
+.toparea3 .wraper_slide ul {
+    overflow: hidden;
+}
+
+.toparea3 .wraper_slide ul li {
+    float: left;
+    width: 240px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.22);
+}
+
+.toparea3 .wraper_slide ul li a {
+    display: block;
+    position: relative;
+    border: 5px solid #fff;
+}
+
+.toparea3 .wraper_slide .img_re {
+    text-align: center;
+}
+
+.toparea3 .wraper_slide .title_re {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 13px 20px;
+    opacity: 0;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+.toparea3 .wraper_slide .hover_title:hover img {
+    opacity: 0.8;
+}
+
+.toparea3 .wraper_slide .hover_title:hover .title_re {
+    opacity: 1;
+}
+
+.toparea3 .bx-wrapper .bx-controls-direction a {
+    width: 36px;
+    height: 37px;
+    top: -34%;
+}
+
+.toparea3 .bx-wrapper .bx-controls-direction a:hover {
+    opacity: 0.8;
+}
+
+.toparea3 .bx-wrapper .bx-prev {
+    left: 1234px;
+    background: url(../img/index/toparea3_slide_prev.png) no-repeat left center;
+}
+
+.toparea3 .bx-wrapper .bx-next {
+    right: 234px;
+    background: url(../img/index/toparea3_slide_next.png) no-repeat right center;
+}
+
+
+.toparea4 {
+    margin-bottom: 125px;
+}
+.toparea4 .areaTitle {
+    margin-bottom: 51px;
+    padding-top: 79px;
+}
+.toparea4 .areaTitle .txt {
+    background-image: url(../img/index/toparea4_title_icon.png);
+    padding-right: 90px;
+}
+.toparea4 .wraper {
+    width: 998px;
+}
+.toparea4 .catlistBtn {
+    width: 100%;
+    text-align: center;
+}
+.toparea4 .catlistBtn ul {
+    font-size: 0;
+}
+.toparea4 .catlistBtn ul li {
+    display: inline-block;
+    width: 303px;
+}
+.toparea4 .catlistBtn ul li+li {
+    margin-left: 44px;
+}
+.toparea4 .catlistBtn ul li a {
+    display: block;
+}
+
+.toparea4 .boxListpost {
+    width: 100%;
+    margin-top: 97px;
+}
+.toparea4 .boxListpost .boxHead {
+    width: 100%;
+    border-bottom: 1px solid #dcd6b9;
+    padding-bottom: 12px;
+}
+.toparea4 .boxListpost .displayBtn {
+    text-align: right;
+    font-size: 0;
+}
+.toparea4 .boxListpost .displayBtn li {
+    display: inline-block;
+}
+.toparea4 .boxListpost .displayBtn li+li {
+    margin-left: 13px;
+}
+.toparea4 .boxListpost .displayBtn li a .atc {
+    display: none;
+}
+.toparea4 .boxListpost .displayBtn li a.active img {
+    display: none;
+}
+.toparea4 .boxListpost .displayBtn li a.active .atc {
+    display: block;
+}
+
+/* List Sights */
+.toparea4 .boxListpost .boxContent .wraper {
+    width: 1040px;
+    overflow: hidden;
+}
+.toparea4 .boxListpost .boxContent .listSights {
+    width: 100%;
+    padding: 57px 20px 0;
+    overflow: hidden;
+}
+.toparea4 .boxListpost .sights-item {
+    width: 301px;
+    float: left;
+    background: #fff;
+    box-shadow: 0px 1px 2px rgba(87, 60, 18, 0.17);
+    margin-bottom: 45px;
+    position: relative;
+    margin-right: 48px;
+    color: #573c12;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.toparea4 .boxListpost .listView .sights-item {
+    width: 100%;
+    margin-right: 0;
+}
+.toparea4 .boxListpost .sights-item .new {
+    position: absolute;
+    top: -9px;
+    left: 10px;
+}
+.toparea4 .boxListpost .sights-item:nth-child(3n) {
+    margin-right: 0px;
+}
+.toparea4 .boxListpost .sights-item .thumail {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    position: relative;
+}
+.toparea4 .boxListpost .listView .sights-item .thumail {
+    width: 301px;
+    float: left;
+}
+.toparea4 .boxListpost .sights-item .thumail .cat-list{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.toparea4 .boxListpost .sights-item .thumail .cat-list .cat-item {
+    margin: 1px 1px 0 0;
+}
+.toparea4 .boxListpost .sights-item .thumail .cat-list .cat-item a {
+    display: block;
+    font-size: 15px;
+    color: #573c12;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #f4ebd4;
+}
+.toparea4 .boxListpost .sights-item .thumail .cat-list .cat-item a:hover {
+    opacity: 0.85;
+}
+.toparea4 .boxListpost .sights-item .inner {
+    padding: 0px 19px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.toparea4 .boxListpost .listView .sights-item .inner {
+    width: 690px;
+    float: right;
+}
+.toparea4 .boxListpost .sights-item .sights-title {
+    text-align: center;
+    color: #573c12;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    height: 87px;
+    display: table;
+    width: 108%;
+    letter-spacing: -0.5px;
+    margin: 0 -4%;
+
+}
+.toparea4 .boxListpost .sights-item .sights-title span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 9px;
+    line-height: 1.3;
+}
+.toparea4 .boxListpost .sights-item .sights-text {
+    word-wrap: break-word;
+    font-size: 15px;
+    padding: 13px 16px 0px 5px;
+    letter-spacing: 0.7px;
+    line-height: 2;
+    border-top: 1px solid #f5ebd4;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    min-height: 135px;
+}
+.toparea4 .boxListpost .listView .sights-item .sights-text {
+    display: block;
+    min-height: 86px;
+}
+.toparea4 .boxListpost .sights-item .more {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.toparea4 .boxListpost .listView .sights-item .more {
+    display: block;
+    text-align: right;
+}
+.toparea4 .boxListpost .listView .sights-item .sights-text {
+    min-width: 135px;
+}
+.toparea4 .boxListpost .sights-item .more a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    background: url(../img/index/toparea4_post_moreicon.png) no-repeat 93% center;
+    padding: 8px 0px;
+    margin: 25px 0px 19px;
+    background-color: #f5ebd4;
+    border-radius: 5px;
+    color: #573c12;
+    font-weight: bold;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.toparea4 .boxListpost .listView .sights-item .more a {
+    display: inline-block;
+    width: 264px;
+    margin: 0;
+}
+
+.toparea4 .boxListpost .listSightBtn {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.toparea4 .boxListpost .listSightBtn a {
+    display: inline-block;
+}
+
+
+.toparea5 {
+    margin-bottom: 99px;
+}
+.toparea5 .areaTitle {
+    margin-bottom: 35px;
+    padding-top: 18px;
+}
+.toparea5 .areaTitle .txt {
+    background-image: url(../img/index/toparea5_title_icon.png);
+    padding-right: 98px;
+}
+
+
+.toparea6 {
+    margin-bottom: 76px;
+}
+.toparea6 .areaTitle {
+    margin-bottom: 35px;
+}
+.toparea6 .areaTitle .txt {
+    background-image: url(../img/index/toparea6_title_icon.png);
+    padding-right: 63px;
+}
+.toparea6 .boxStation {
+    width: 100%;
+    margin-top: 40px;
+}
+.toparea6 .boxStation .stationItem {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.toparea6 .boxStation .stationItem .staTitle {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: #79a91d;
+    font-size: 20px;
+    border-bottom: 2px solid #5c860b;
+    position: relative;
+    cursor: pointer;
+}
+.toparea6 .boxStation .stationItem .staTitle:after {
+    content: "";
+    width: 34px;
+    height: 35px;
+    background: url(../img/index/toparea6_box_arrowicon.png) no-repeat center center;
+    position: absolute;
+    right: 22px;
+    top: 14px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.toparea6 .boxStation .stationItem .staTitle.open:after {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.toparea6 .boxStation .stationItem .staTitle span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 44px;
+    text-align: center;
+    color: #79a91d;
+    background-color: #FFFFFF;
+    padding: 7px 0;
+    border-radius: 5px;
+    margin-right: 24px;
+}
+.toparea6 .boxStation .stationItem .staInfo {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.toparea7 {
+    margin-bottom: 200px;
+    overflow: hidden;
+}
+.toparea7 .areaTitle {
+	padding-bottom: 7px;
+    margin-bottom: 48px;
+}
+.toparea7 .areaTitle .txt {
+    background-image: url(../img/index/toparea7_title_icon.png);
+    padding: 23px 73px 0;
+}
+.toparea7 .wrap_link {
+    width: 1738px;
+    margin-left: -319px;
+    position: relative;
+}
+.toparea7 .wrap_link:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -1386px;
+    /*background: rgba(255, 255, 255, 0.20);*/
+    background: url(../img/common/body_bg.png);
+    z-index: 20;
+    opacity: 0.7;
+}
+.toparea7 .wrap_link:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -1386px;
+    background: url(../img/common/body_bg.png);
+    z-index: 20;
+    opacity: 0.7;
+}
+.toparea7 .wrap_link .bx-wrapper .bx-controls-direction a {
+    top: 42%;
+}
+.toparea7 .wrap_link .bx-wrapper .bx-prev {
+    left: 297px;
+}
+.toparea7 .wrap_link .bx-wrapper .bx-next {
+    right: 297px;
+} 
